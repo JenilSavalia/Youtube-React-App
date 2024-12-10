@@ -1,0 +1,11 @@
+.videos_menu {
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 9px;
+}
+
+.video_card{
+    margin: 15px;
+}

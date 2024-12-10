@@ -1,0 +1,68 @@
+.top_navbar {
+    display: flex;
+    /* width: 100vw; */
+    height: 6vh;
+    background-color: rgb(36, 36, 36);
+    justify-content: space-evenly;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+    /* Dark background */
+    border: 1px solid #444;
+    /* Border with subtle contrast */
+    border-radius: 2px;
+    /* Rounded corners */
+    overflow: hidden;
+    /* Prevents overflow of children */
+    width: 600px;
+    /* Adjust as needed */
+    height: 78%;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    background-color: #222;
+    /* Match container color */
+    color: #fff;
+    /* White text for contrast */
+    font-size: 19px;
+    outline: none;
+    /* Removes default focus outline */
+}
+
+.search-box button {
+    padding: 10px;
+    height: 100%;
+    width: 80px;
+    background-color: #333;
+    /* Slightly darker background */
+    border: none;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #444;
+    /* Change background color on hover */
+}
+
+.search-box .search-icon {
+    color: #fff;
+    /* White icon */
+    font-size: 16px;
+}
+
+
+/* ---------------------- */
+
+.right_icons img {
+    width: 40px;
+    padding-right: 20px;
+}

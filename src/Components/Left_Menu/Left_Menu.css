@@ -1,0 +1,66 @@
+.inner_menu_box {
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    color: rgb(255, 255, 255);
+}
+
+.inner_menu_box img {
+    width: 3.5vh;
+}
+
+.inner_menu_box div {
+    margin-left: 2vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8vh;
+}
+
+
+
+/* ------------------------- */
+
+.left_menu_logo {
+    padding: 13px 19px;
+}
+
+.youtube_logo {
+    margin-left: 20px;
+    width: 12vh;
+}
+
+.left_menu {
+    background-color: rgb(49, 49, 49);
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 58%;
+}
+
+
+.inner_menu_box_TEXT {
+
+    display: flex;
+    align-items: center;
+    padding: 10px 0PX 6PX 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+hr {
+    margin: 20px 0px;
+    width: 32vh;
+    opacity: 12%;
+}
+
+.left_menu_subscriptions {
+    padding: 10px 0px;
+}
+
+.left_menu_1 {
+    padding: 10px 0px;
+}
+
+.left_menu_2 {
+    padding: 10px 0px;
+}
+
+
+
