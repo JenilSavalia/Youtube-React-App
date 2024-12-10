@@ -8,14 +8,14 @@ function Play_Card({ data }) {
     return (
 
         <>
-            <img src={data.image} alt="" width={"350vh"} className="Youtube_Img" />
+            <img src={data.thumb} alt="" width={"350vh"} className="Youtube_Img"  />
             <div className="video_card_title">
                 <img src={data.channel_img} alt="" />
                 <span>{data.title}</span>
             </div>
 
             <div className="video_card_title_2">
-                <div>{data.channel_title}<img src={image3} alt="" width={"13vh"}/></div>
+                <div>{data.channel}<img src={image3} alt="" width={"13vh"} /></div>
                 <div>{data.meta}</div>
             </div>
         </>
