@@ -3,6 +3,13 @@
     align-items: center;
     padding: 8px 20px;
     color: rgb(255, 255, 255);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.inner_menu_box:hover {
+    background-color: rgb(63, 63, 63);
+    transition: 0.3s;
 }
 
 .inner_menu_box img {
@@ -61,6 +68,3 @@ hr {
 .left_menu_2 {
     padding: 10px 0px;
 }
-
-
-
